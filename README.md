@@ -65,7 +65,7 @@ Packages to be installed must be downloaded from [mirror servers](https://wiki.a
 
 The higher a mirror is placed in the list, the more priority it is given when downloading a package. You may want to edit the file accordingly, and move the geographically closest mirrors to the top of the list, although other criteria should be taken into account.
 
-This file will later be copied to the new system by pacstrap, so it is worth getting right.
+This doesn't matter too much, since you can always run [reflector](https://wiki.archlinux.org/index.php/reflector) to optimize the mirrorlist after the installation is complete.
 
 ## Install base packages
 
