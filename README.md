@@ -181,4 +181,18 @@ Install the proper [video driver](https://wiki.archlinux.org/index.php/Xorg) for
 
 Also do [this](https://gist.github.com/kevinwright/6884737)
 
-[This](https://tutos.readthedocs.io/en/latest/source/Arch.html) is how I install i3-gaps
+
+
+
+I installed i3-gaps by running:
+`sudo pacman -S i3-gaps dmenu xorg xorg-xinit`
+
+Making `~/.xinitrc` have:
+```/bin/bash
+#!/bin/bash
+exec i3
+```
+And putting this at the end of my `~/.config/fish/config.fish`
+if [[ "$(tty)" == '/dev/tty1' ]]; then
+    exec startx
+fi
