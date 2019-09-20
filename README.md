@@ -180,3 +180,5 @@ Finally, restart the machine by typing reboot: any partitions still mounted will
 Install the proper [video driver](https://wiki.archlinux.org/index.php/Xorg) for your system
 
 Also do [this](https://gist.github.com/kevinwright/6884737)
+
+[This](https://tutos.readthedocs.io/en/latest/source/Arch.html) is how I install i3-gaps
