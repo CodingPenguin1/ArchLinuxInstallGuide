@@ -178,3 +178,5 @@ Finally, restart the machine by typing reboot: any partitions still mounted will
 # Post-installation
 
 Install the proper [video driver](https://wiki.archlinux.org/index.php/Xorg) for your system
+
+Also do [this](https://gist.github.com/kevinwright/6884737)
