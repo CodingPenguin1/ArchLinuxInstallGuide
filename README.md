@@ -2,7 +2,7 @@
 
 Download the Arch Linux ISO from the [Arch Linux downloads page](https://www.archlinux.org/download/)
 
-Verify the download integrity with the MD5 of SHA1 hash
+Verify the download integrity with the MD5 or SHA1 hash
 
 Install the ISO onto a USB drive
 
