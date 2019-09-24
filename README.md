@@ -195,7 +195,9 @@ exec i3
 
 And putting this at the end of my `~/.config/fish/config.fish`
 ```/bin/bash
-if [[ "$(tty)" == '/dev/tty1' ]]; then
-    exec startx
-fi
+if status --is-login
+    if test -z "$DISPLAY" -a $XDG_VTNR = 1
+        exec startx
+    end
+end
 ```
