@@ -192,7 +192,9 @@ Making `~/.xinitrc` have:
 #!/bin/bash
 exec i3
 ```
+```/bin/bash
 And putting this at the end of my `~/.config/fish/config.fish`
 if [[ "$(tty)" == '/dev/tty1' ]]; then
     exec startx
 fi
+```
