@@ -69,7 +69,7 @@ This doesn't matter too much, since you can always run [reflector](https://wiki.
 
 ## Install base packages
 
-`# pacstrap /mnt base linux linux-firmware dialog wpa_supplicant efibootmgr dhcp`
+`# pacstrap /mnt base linux linux-firmware dialog wpa_supplicant efibootmgr dhcp vim`
 
 Also install a terminal, web browser, and network manager with
 
