@@ -190,7 +190,7 @@ I installed i3-gaps by running:
 Making `~/.xinitrc` have:
 ```/bin/bash
 #!/bin/bash
-exec i3
+exec dbus-laounch --exit-with-session ssh-agent i3
 ```
 
 And putting this at the end of my `~/.config/fish/config.fish`
