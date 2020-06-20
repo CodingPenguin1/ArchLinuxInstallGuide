@@ -179,6 +179,8 @@ Finally, restart the machine by typing reboot: any partitions still mounted will
 
 Install the proper [video driver](https://wiki.archlinux.org/index.php/Xorg) for your system
 
+If you use xorg, also install xorg-drivers to make sure all function keys work
+
 Also do [this](https://gist.github.com/kevinwright/6884737)
 
 
